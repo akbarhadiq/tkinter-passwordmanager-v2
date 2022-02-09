@@ -119,6 +119,7 @@ window.config(padx=50, pady=50)
 # Create canvas
 canvas = Canvas(width=200, height=200, highlightthickness=0)
 # Create the image canvas
+# Add your own Logo
 logo = PhotoImage(file="logo.png")
 canvas.create_image(100, 100, image=logo)
 # Put the canvas onto the window
